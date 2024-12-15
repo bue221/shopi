@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="flex w-full justify-between items-center p-6">
       <div className="flex items-center gap-6">
-        <h1 className="text-2xl text-black-950 font-bold capitalize">Shopi</h1>
+        <h1 className="text-2xl text-genoa-500 font-bold capitalize">Shopi</h1>
         <div className="flex gap-4">
           {MAIN_LINKS.map((link) => (
             <NavLink
